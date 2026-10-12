@@ -19,12 +19,12 @@ const Advantage = () => {
             description: "Expect end-to-end personalized support, transparent tracking, and clear communication from our dedicated dispatch team."
         },
         {
-            title: "Local Montreal Expertise",
-            description: "Specialized local trucking, fast city pickups, and reliable freight movements exclusively throughout Montreal and the Quebec area."
+            title: "Local Bay Area Expertise",
+            description: "Specialized local dispatching, fast city pickups, and reliable freight movements throughout San Francisco, the Bay Area, and California."
         },
         {
-            title: "Nationwide Canadian Coverage",
-            description: "Comprehensive transport solutions across major corridors, connecting Quebec, Ontario, Alberta, BC, and Atlantic Canada."
+            title: "Nationwide US Coverage",
+            description: "Comprehensive dispatching solutions across all major US corridors, connecting California, Texas, the Midwest, East Coast, and the entire lower 48."
         }
     ];
 
@@ -33,7 +33,7 @@ const Advantage = () => {
             <div className="w-full mx-auto px-4 sm:px-8 lg:px-12 xl:px-20">
                 <div className="text-center mb-16">
                     <h2 className="text-[40px] sm:text-[48px] md:text-[56px] font-black text-[#1a1a1a] mb-4 tracking-tight">
-                        The Falcon <span className="text-primary-600">advantage</span>
+                        The Lane Star <span className="text-primary-600">advantage</span>
                     </h2>
                     <p className="text-gray-800 font-medium text-[15px]">
                         Discover what sets us apart

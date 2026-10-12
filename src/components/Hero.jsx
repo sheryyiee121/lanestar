@@ -7,7 +7,7 @@ const Hero = () => {
     const handleWhatsAppSubmit = (e) => {
         e.preventDefault();
         const text = encodeURIComponent(`Hi, I'm requesting a setup quote.\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}`);
-        window.open(`https://wa.me/15144648797?text=${text}`, '_blank');
+        window.open(`https://wa.me/15106033758?text=${text}`, '_blank');
     };
 
     return (
@@ -32,12 +32,12 @@ const Hero = () => {
             <div className="relative z-20 w-full lg:w-[60%] px-4 sm:px-6 lg:px-12 xl:px-24 py-16 lg:py-24 bg-[#f8fbff] lg:bg-transparent bg-opacity-95 lg:bg-opacity-100">
                 <div className="max-w-[700px] ml-auto mr-auto lg:mr-16">
                     <h1 className="text-[44px] sm:text-5xl md:text-6xl lg:text-[72px] font-black text-[#1a1a1a] leading-[1.05] mb-6 tracking-tight">
-                        Reliable Canadian <br className="hidden sm:block" />
-                        <span className="text-primary-600">freight</span> carrier
+                        Reliable Truck <br className="hidden sm:block" />
+                        <span className="text-primary-600">Dispatching</span> Services
                     </h1>
 
                     <p className="text-lg lg:text-[19px] text-[#4a4a4a] mb-6 font-medium leading-snug">
-                        Professional trucking and freight transportation services across Canada. We handle both local and long-distance shipments.
+                        Professional truck dispatching services across the USA. We find the best loads and handle all the paperwork for you.
                     </p>
 
                     {/* Ratings */}
@@ -45,7 +45,7 @@ const Hero = () => {
                         <div className="flex text-[#ff9f00] text-xl gap-1">
                             <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
                         </div>
-                        <span className="text-[13px] text-gray-700 font-bold tracking-wide">Trusted by businesses throughout Canada</span>
+                        <span className="text-[13px] text-gray-700 font-bold tracking-wide">Trusted by owner-operators nationwide</span>
                     </div>
 
                     {/* Form Component Box */}
@@ -78,13 +78,13 @@ const Hero = () => {
                             <label className="flex items-start gap-3 flex-1 cursor-pointer group">
                                 <input type="checkbox" className="mt-0.5 w-[18px] h-[18px] rounded-md border-gray-300 text-primary-500 focus:ring-primary-500 cursor-pointer" />
                                 <span className="text-[10px] text-gray-500 leading-snug group-hover:text-gray-700 transition-colors">
-                                    I agree to receive email updates, offers, and notifications from Falcon Translines.
+                                    I agree to receive email updates, offers, and notifications from Lane Star Dispatch.
                                 </span>
                             </label>
                             <label className="flex items-start gap-3 flex-1 cursor-pointer group">
                                 <input type="checkbox" className="mt-0.5 w-[18px] h-[18px] rounded-md border-gray-300 text-primary-500 focus:ring-primary-500 cursor-pointer" />
                                 <span className="text-[10px] text-gray-500 leading-snug group-hover:text-gray-700 transition-colors">
-                                    By checking this box, you agree to receive text messages from Falcon Translines for <a href="#" className="text-primary-500 font-bold hover:underline">Read more...</a>
+                                    By checking this box, you agree to receive text messages from Lane Star Dispatch. <a href="#" className="text-primary-500 font-bold hover:underline">Read more...</a>
                                 </span>
                             </label>
                         </div>

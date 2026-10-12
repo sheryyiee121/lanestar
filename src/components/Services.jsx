@@ -5,7 +5,7 @@ const Services = () => {
     const filters = [
         { name: 'Expedited Transportation', active: true },
         { name: 'Long-Distance & Regional', active: false },
-        { name: 'Montreal Local Delivery', active: false },
+        { name: 'Bay Area Local Dispatch', active: false },
         { name: 'Dedicated Transportation', active: false },
         { name: 'Full Truckload', active: false }
     ];
@@ -22,15 +22,15 @@ const Services = () => {
         },
         {
             title: "Long-Distance Transportation",
-            description: "Regional and nationwide freight services across Quebec, Ontario, Alberta, BC, and Atlantic Canada.",
+            description: "Regional and nationwide freight dispatching across California, Texas, the Midwest, East Coast, and all major US corridors.",
             badges: [
                 { text: "NATIONWIDE", type: "red" }
             ],
             image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
         },
         {
-            title: "Montreal Local Delivery Services",
-            description: "Local trucking, city pickups, and quick freight movements throughout Montreal and the surrounding area.",
+            title: "Bay Area Local Dispatch Services",
+            description: "Local dispatching, city pickups, and quick freight movements throughout San Francisco, the Bay Area, and surrounding regions.",
             badges: [
                 { text: "LOCAL", type: "blue" }
             ],
@@ -38,7 +38,7 @@ const Services = () => {
         },
         {
             title: "Versatile Dedicated Fleet",
-            description: "Box trucks, dry vans, refrigerated trucks, and sprinter vans tailored to your specific Canadian freight sizes.",
+            description: "Box trucks, dry vans, refrigerated trucks, and sprinter vans tailored to your specific freight sizes.",
             badges: [],
             image: "https://images.unsplash.com/photo-1582218884964-b5278dfec4fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
         }
@@ -53,7 +53,7 @@ const Services = () => {
                         <span className="text-primary-600">our services</span>
                     </h2>
                     <p className="text-[#6b7280] font-medium mt-5 text-[15px] leading-relaxed max-w-3xl">
-                        Falcon Translines Ltd. provides reliable transportation using different types of
+                        Lane Star Dispatch provides reliable dispatching services using different types of
                         equipment to accommodate different shipment requirements. We handle both local
                         and long-distance shipments, offering solutions carefully tailored to your freight.
                     </p>
@@ -65,8 +65,8 @@ const Services = () => {
                         <button
                             key={index}
                             className={`px-5 py-2.5 rounded-full text-[13px] font-semibold transition-all duration-300 border ${filter.active
-                                    ? 'border-primary-500 text-primary-600 bg-red-50/50'
-                                    : 'border-gray-200 text-gray-500 hover:border-gray-300 hover:text-gray-700 bg-white'
+                                ? 'border-primary-500 text-primary-600 bg-red-50/50'
+                                : 'border-gray-200 text-gray-500 hover:border-gray-300 hover:text-gray-700 bg-white'
                                 }`}
                         >
                             {filter.name}

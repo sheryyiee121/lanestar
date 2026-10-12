@@ -13,17 +13,17 @@ const Navbar = () => {
                     <div className="flex-shrink-0 flex items-center mr-8">
                         <a href="/" className="flex items-center gap-2">
                             <span className="bg-primary-600 text-white px-2 py-0.5 rounded-sm text-[28px] font-black tracking-tight uppercase leading-none">
-                                FALCON
+                                LANE STAR
                             </span>
                             <span className="text-[14px] font-extrabold text-gray-900 leading-tight">
-                                Translines<br />Ltd
+                                Dispatch
                             </span>
                         </a>
                     </div>
 
                     {/* Desktop Menu */}
                     <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-                        <a href="/#services" className="flex items-center text-gray-900 font-medium hover:text-primary-500 transition-colors text-[15px]">
+                        <a href="#/services" className="flex items-center text-gray-900 font-medium hover:text-primary-500 transition-colors text-[15px]">
                             Services <FiChevronDown className="ml-1 text-gray-500 w-4 h-4" />
                         </a>
                         <div className="relative group/trucks py-6">
@@ -79,8 +79,8 @@ const Navbar = () => {
 
                     {/* Phone Button */}
                     <div className="hidden lg:flex items-center">
-                        <a href="https://wa.me/15144648797" target="_blank" rel="noopener noreferrer" className="bg-primary-500 text-white font-bold px-6 py-3.5 hover:bg-primary-600 transition-colors text-[15px]">
-                            +1 (514) 464-8797
+                        <a href="tel:+15106033758" className="bg-primary-500 text-white font-bold px-6 py-3.5 hover:bg-primary-600 transition-colors text-[15px]">
+                            +1 (510) 603-3758
                         </a>
                     </div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
             {isMobileMenuOpen && (
                 <div className="lg:hidden bg-white shadow-xl absolute w-full left-0 top-full border-t border-gray-100 max-h-[80vh] overflow-y-auto">
                     <div className="px-4 pt-4 pb-6 space-y-5">
-                        <a href="/#services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-between text-gray-900 font-medium">
+                        <a href="#/services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-between text-gray-900 font-medium">
                             Services
                         </a>
 
@@ -138,8 +138,8 @@ const Navbar = () => {
                         <a href="#/contact" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-900 font-medium">
                             Contact us
                         </a>
-                        <a href="https://wa.me/15144648797" target="_blank" rel="noopener noreferrer" className="block mt-6 bg-primary-500 text-white font-bold text-center py-3.5 rounded-lg active:scale-95 transition-transform">
-                            +1 (514) 464-8797
+                        <a href="tel:+15106033758" className="block mt-6 bg-primary-500 text-white font-bold text-center py-3.5 rounded-lg active:scale-95 transition-transform">
+                            +1 (510) 603-3758
                         </a>
                     </div>
                 </div>

@@ -1,6 +1,8 @@
-# OnWay Dispatch - Truck Dispatching Services Website
+# lanestar
 
-A modern, responsive website for OnWay Dispatch, a professional truck dispatching service for American truck drivers. Built with React, Vite, and Tailwind CSS.
+Lane Star Dispatch - Truck Dispatching Services Website
+
+A modern, responsive website for Lane Star Dispatch, a professional truck dispatching service based in San Francisco, California. Built with React, Vite, and Tailwind CSS.
 
 ## Features
 

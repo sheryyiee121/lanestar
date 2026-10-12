@@ -7,7 +7,7 @@ const Setup = () => {
     const handleWhatsAppSubmit = (e) => {
         e.preventDefault();
         const text = encodeURIComponent(`Hi, I'm requesting a setup quote.\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}`);
-        window.open(`https://wa.me/15144648797?text=${text}`, '_blank');
+        window.open(`https://wa.me/15106033758?text=${text}`, '_blank');
     };
 
     return (
@@ -41,10 +41,10 @@ const Setup = () => {
 
                         <div className="space-y-6 text-gray-300 text-[15px] leading-relaxed max-w-[480px]">
                             <p>
-                                <strong className="text-white">Falcon Translines Ltd.</strong> provides reliable transportation using different types of equipment to accommodate your unique shipment requirements.
+                                <strong className="text-white">Lane Star Dispatch</strong> provides reliable dispatching services using different types of equipment to accommodate your unique shipment requirements.
                             </p>
                             <p>
-                                Our expert dispatch team ensures that freight from any region gets safely delivered across major Canadian corridors without delay.
+                                Our expert dispatch team ensures that freight from any region gets safely delivered across major US corridors without delay.
                             </p>
                         </div>
                     </div>
@@ -83,13 +83,13 @@ const Setup = () => {
                                     <label className="flex items-start gap-3 flex-1 cursor-pointer">
                                         <input type="checkbox" className="mt-1 w-4 h-4 rounded border-gray-300 text-primary-600 focus:ring-primary-600" />
                                         <span className="text-[11px] text-gray-500 leading-snug">
-                                            I agree to receive email updates, offers, and notifications from Falcon Translines.
+                                            I agree to receive email updates, offers, and notifications from Lane Star Dispatch.
                                         </span>
                                     </label>
                                     <label className="flex items-start gap-3 flex-1 cursor-pointer">
                                         <input type="checkbox" className="mt-1 w-4 h-4 rounded border-gray-300 text-primary-600 focus:ring-primary-600" />
                                         <span className="text-[11px] text-gray-500 leading-snug">
-                                            By checking this box, you agree to receive text messages from Falcon Translines. <a href="#" className="text-primary-600 font-bold hover:underline">Read more.</a>
+                                            By checking this box, you agree to receive text messages from Lane Star Dispatch. <a href="#" className="text-primary-600 font-bold hover:underline">Read more.</a>
                                         </span>
                                     </label>
                                 </div>

@@ -18,7 +18,7 @@ const About = () => {
 
                         <div className="text-gray-800 text-[17px] sm:text-[19px] leading-[1.8] font-medium space-y-6 mb-10 max-w-[540px]">
                             <p>
-                                <strong className="text-primary-600 font-bold">Falcon Translines Ltd.</strong> is a Canadian transportation and freight carrier based in Quebec. We are fully equipped with multiple types of trucks to handle both local Montreal deliveries and long-distance shipments across Canada.
+                                <strong className="text-primary-600 font-bold">Lane Star Dispatch</strong> is a professional truck dispatching company based in San Francisco, California. We connect owner-operators with the best-paying loads and handle all paperwork, negotiations, and logistics so you can focus on driving.
                             </p>
                             <p>
                                 What sets us apart is our professional and dependable approach. From expedited freight to dedicated regional routes, we tailor our transportation solutions to fit your unique shipment requirements, ensuring your cargo arrives safely and on time.

@@ -4,11 +4,11 @@ const FAQ = () => {
     const faqs = [
         {
             question: "What areas do you serve?",
-            answer: "Falcon Translines Ltd. provides transportation services throughout Canada, including major markets in Quebec, Ontario, Alberta, British Columbia, and Atlantic Canada."
+            answer: "Lane Star Dispatch provides dispatching services throughout the United States from our headquarters in San Francisco, California. We cover all major freight markets and transportation corridors nationwide."
         },
         {
-            question: "Do you handle local Montreal deliveries?",
-            answer: "Yes, in addition to long-distance transportation, we provide dedicated local trucking services in Montreal and the surrounding Quebec region for city pickups and rapid freight movements."
+            question: "Do you handle local California dispatching?",
+            answer: "Yes, in addition to nationwide dispatching, we specialize in California and West Coast freight lanes, with deep broker relationships across the Bay Area, LA, and the entire Pacific corridor."
         },
         {
             question: "What types of trucks do you operate?",
@@ -30,7 +30,7 @@ const FAQ = () => {
                         Frequently Asked Questions
                     </h2>
                     <p className="text-gray-500 font-medium text-[16px]">
-                        Everything you need to know about Falcon Translines.
+                        Everything you need to know about Lane Star Dispatch.
                     </p>
                 </div>
 

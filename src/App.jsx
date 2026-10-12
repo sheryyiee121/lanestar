@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import TruckPage from './pages/TruckPage';
+import ServicesPage from './pages/ServicesPage';
 import FaqPage from './pages/FaqPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
@@ -37,7 +38,7 @@ function App() {
             const newHash = window.location.hash;
             setHash(newHash);
             // Only scroll to top if navigating to an entirely distinct routed page
-            if (newHash.startsWith('#truck/') || newHash === '#/faq' || newHash === '#/contact' || newHash === '') {
+            if (newHash.startsWith('#truck/') || newHash === '#/faq' || newHash === '#/contact' || newHash === '#/services' || newHash === '') {
                 window.scrollTo(0, 0);
             }
         };
@@ -50,11 +51,13 @@ function App() {
     }, []);
 
     const isTruckPage = hash.startsWith('#truck/');
+    const isServicesPage = hash === '#/services';
     const isFaqPage = hash === '#/faq';
     const isContactPage = hash === '#/contact';
 
     const renderContent = () => {
         if (isTruckPage) return <TruckPage hash={hash} />;
+        if (isServicesPage) return <ServicesPage />;
         if (isFaqPage) return <FaqPage />;
         if (isContactPage) return <ContactPage />;
         return <Home />;

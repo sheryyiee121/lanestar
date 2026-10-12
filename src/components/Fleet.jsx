@@ -41,7 +41,7 @@ const Fleet = () => {
                             <span className="text-primary-600">versatile fleet</span>
                         </h2>
                         <p className="text-gray-500 font-medium text-[16px] leading-[1.7] mb-10 max-w-lg">
-                            We provide transportation using different types of equipment to accommodate various freight sizes, specialized shipment requirements, and strict delivery timelines across Canada.
+                            We dispatch all types of equipment to accommodate various freight sizes, specialized shipment requirements, and strict delivery timelines across the United States.
                         </p>
                         <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-bold py-3.5 px-8 rounded-[8px] transition-all shadow-md text-[15px]">
                             Book a Truck <FiArrowRight className="w-[18px] h-[18px]" />
