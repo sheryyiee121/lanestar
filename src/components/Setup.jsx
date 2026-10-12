@@ -7,7 +7,7 @@ const Setup = () => {
     const handleWhatsAppSubmit = (e) => {
         e.preventDefault();
         const text = encodeURIComponent(`Hi, I'm requesting a setup quote.\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}`);
-        window.open(`https://wa.me/15106033758?text=${text}`, '_blank');
+        window.open(`https://wa.me/19433009678?text=${text}`, '_blank');
     };
 
     return (
