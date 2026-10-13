@@ -79,8 +79,8 @@ const Navbar = () => {
 
                     {/* Phone Button */}
                     <div className="hidden lg:flex items-center">
-                        <a href="tel:+15106033758" className="bg-primary-500 text-white font-bold px-6 py-3.5 hover:bg-primary-600 transition-colors text-[15px]">
-                            +1 (510) 603-3758
+                        <a href="tel:+19433009678" className="bg-primary-500 text-white font-bold px-6 py-3.5 hover:bg-primary-600 transition-colors text-[15px]">
+                            +1 (943) 300-9678
                         </a>
                     </div>
 
@@ -138,8 +138,8 @@ const Navbar = () => {
                         <a href="#/contact" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-900 font-medium">
                             Contact us
                         </a>
-                        <a href="tel:+15106033758" className="block mt-6 bg-primary-500 text-white font-bold text-center py-3.5 rounded-lg active:scale-95 transition-transform">
-                            +1 (510) 603-3758
+                        <a href="tel:+19433009678" className="block mt-6 bg-primary-500 text-white font-bold text-center py-3.5 rounded-lg active:scale-95 transition-transform">
+                            +1 (943) 300-9678
                         </a>
                     </div>
                 </div>

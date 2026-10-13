@@ -169,7 +169,7 @@ const ServicesPage = () => {
                         <a href="#services-list" className="inline-flex items-center gap-2 bg-primary-500 hover:bg-primary-600 text-white font-bold py-4 px-8 rounded-[10px] transition-all shadow-lg text-[15px]">
                             View All Services <FiArrowRight className="w-5 h-5" />
                         </a>
-                        <a href="tel:+15106033758" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-[10px] transition-all border border-white/10 text-[15px]">
+                        <a href="tel:+19433009678" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-[10px] transition-all border border-white/10 text-[15px]">
                             <FiPhone className="w-5 h-5" /> Call Us Now
                         </a>
                     </div>
